@@ -1,8 +1,8 @@
 .. _ipython_resources:
 
-*********************************
-iPython Interpreter Resources
-*********************************
+*******************
+iPython Interpreter
+*******************
 
 iPython is an enhanced interpreter that makes interactive experimentation at the command line much more pleasant and powerful.
 

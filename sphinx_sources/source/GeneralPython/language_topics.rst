@@ -8,7 +8,7 @@ Sequences and Slicing
 ======================
 
 Arguments and Parameters
-======================
+========================
 
 Object Oriented Programming: classes
-=====================================
+====================================

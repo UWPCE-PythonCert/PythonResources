@@ -1,11 +1,10 @@
-======================
-Supplemental Materials
-======================
+===============================================
+Setting Up A Development Environment For Python
+===============================================
 
 .. toctree::
     :maxdepth: 1
 
-    python_learning_resources
     python_for_mac
     python_for_windows
     python_for_linux
@@ -14,5 +13,3 @@ Supplemental Materials
     shell
     git_overview
     install_nano_win
-    unicode
-    packaging

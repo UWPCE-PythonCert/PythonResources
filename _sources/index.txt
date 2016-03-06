@@ -1,5 +1,5 @@
 ========================================
-Resources for Pyhton Certificate Program
+Resources for Python Certificate Program
 ========================================
 
 Assorted Resources for the UW Python Certificate program:

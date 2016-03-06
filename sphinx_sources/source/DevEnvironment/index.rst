@@ -8,8 +8,13 @@ Setting Up A Development Environment For Python
     python_for_mac
     python_for_windows
     python_for_linux
+
     virtualenv
+
     sublime_as_ide
     shell
+    ipython
+
     git_overview
+
     install_nano_win

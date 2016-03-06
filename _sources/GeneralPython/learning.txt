@@ -100,19 +100,3 @@ Python programming best covered by each resource. I would urge any new student
 of Python to take the time to look over this poster to help determine the best
 path forward for themselves.
 
-iPython Interpreter Resources
-=============================
-
-iPython is an enhanced interpreter that makes interactive experimentation at the command line much more pleasant and powerful.
-
-* **The iPython tutorial**
-    (https://ipython.org/ipython-doc/stable/interactive/tutorial.html)
-
-* **Using IPython for interactive work**
-    (http://ipython.org/ipython-doc/stable/interactive/index.html)
-    Learn about the abilities iPython provides for interactive sessions.
-
-* **The iPython Documentation**
-    (http://ipython.org/ipython-doc/stable/index.html)
-    Use this to learn more about iPython's amazing capabilities.
-

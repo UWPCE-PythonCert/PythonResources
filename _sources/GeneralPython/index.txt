@@ -6,4 +6,6 @@ Resources for Specific Python Topics
     :maxdepth: 1
 
     learning
+    ipython
     packaging
+    language_topics

@@ -5,7 +5,6 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>Setting Up Python For Linux &mdash; Python Resources 1.0 documentation</title>
@@ -15,6 +14,7 @@
   
 
   
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
   
   
@@ -36,7 +36,7 @@
         <link rel="prev" title="Setting up Windows for Python" href="python_for_windows.html"/> 
 
   
-  <script src="../_static/js/modernizr.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
 </head>
 
@@ -46,27 +46,11 @@
 
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
-          
-
-          
-            <a href="../index.html" class="icon icon-home"> Python Resources
-          
-
-          
-          </a>
-
-          
-            
-            
-              <div class="version">
-                1.0
-              </div>
-            
-          
-
-          
+      <div class="wy-side-nav-search">
+        
+          <a href="../index.html" class="fa fa-home"> Python Resources</a>
+        
+        
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -74,50 +58,38 @@
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
+      </div>
 
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
           
-        </div>
-
-        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
-            
-            
-                <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../GeneralPython/index.html">Resources for Specific Python Topics</a></li>
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../GeneralPython/index.html">Resources for Specific Python Topics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../GeneralPython/learning.html">Useful Python Learning Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../GeneralPython/packaging.html">Packages and Packaging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../GeneralPython/packaging.html#distributing">Distributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../GeneralPython/language_topics.html">Specific Python Language Topics</a></li>
+</ul>
+</li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Setting Up A Development Environment For Python</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="python_for_mac.html">Setting up your Mac for Python</a></li>
 <li class="toctree-l2"><a class="reference internal" href="python_for_windows.html">Setting up Windows for Python</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="">Setting Up Python For Linux</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#debian-and-related-distros-ubuntu-linux-mint">Debian and Related Distros (Ubuntu, Linux Mint)</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#python">Python</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#terminal">Terminal</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#git">git</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#pip">pip</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#ipython">iPython</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#fedora-and-red-hat-related-distros-centos">Fedora and Red Hat Related Distros (CentOS)</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id2">Python</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id4">Terminal</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id5">git</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id6">pip</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id7">iPython</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Setting Up Python For Linux</a></li>
 <li class="toctree-l2"><a class="reference internal" href="virtualenv.html">Working with Virtualenv</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sublime_as_ide.html">Turning Sublime Text Into a Lightweight Python IDE</a></li>
 <li class="toctree-l2"><a class="reference internal" href="shell.html">Shell Customizations for Python Development</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ipython.html">iPython Interpreter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="git_overview.html">git Overview</a></li>
 <li class="toctree-l2"><a class="reference internal" href="install_nano_win.html">Installing Nano on Windows</a></li>
 </ul>
 </li>
 </ul>
 
-            
           
-        </div>
+        
       </div>
+      &nbsp;
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
@@ -132,13 +104,7 @@
       
       <div class="wy-nav-content">
         <div class="rst-content">
-          
-
-
-
-
-
-<div role="navigation" aria-label="breadcrumbs navigation">
+          <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
@@ -147,16 +113,13 @@
     <li>Setting Up Python For Linux</li>
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/DevEnvironment/python_for_linux.txt" rel="nofollow"> View page source</a>
-          
+          <a href="../_sources/DevEnvironment/python_for_linux.txt" rel="nofollow"> View page source</a>
         
       </li>
   </ul>
   <hr/>
 </div>
-          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-           <div itemprop="articleBody">
+          <div role="main" class="document">
             
   <div class="section" id="setting-up-python-for-linux">
 <span id="python-for-linux"></span><h1>Setting Up Python For Linux<a class="headerlink" href="#setting-up-python-for-linux" title="Permalink to this headline">¶</a></h1>
@@ -344,16 +307,15 @@ pip 1.5.6 from /opt/rh/rh-python34/root/usr/lib/python3.4/site-packages <span cl
 </div>
 
 
-           </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="virtualenv.html" class="btn btn-neutral float-right" title="Working with Virtualenv" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="virtualenv.html" class="btn btn-neutral float-right" title="Working with Virtualenv">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="python_for_windows.html" class="btn btn-neutral" title="Setting up Windows for Python" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="python_for_windows.html" class="btn btn-neutral" title="Setting up Windows for Python"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -363,13 +325,12 @@ pip 1.5.6 from /opt/rh/rh-python34/root/usr/lib/python3.4/site-packages <span cl
   <div role="contentinfo">
     <p>
         &copy; Copyright 2014, Christopher Barker, Cris Ewing, Maria McKinley.
-
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  
 </footer>
-
         </div>
       </div>
 

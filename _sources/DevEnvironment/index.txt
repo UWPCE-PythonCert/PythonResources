@@ -12,6 +12,7 @@ Setting Up A Development Environment For Python
     virtualenv
 
     sublime_as_ide
+    command_line
     shell
     ipython
 

@@ -1,8 +1,8 @@
 .. _python_learning_resources:
 
-*********************************
+================================
 Useful Python Learning Resources
-*********************************
+================================
 
 In addition to the material we cover in class, there are numerous online
 resources to help a newcomer get to know Python. The following list represents
@@ -22,6 +22,12 @@ your Python chops.
 For the beginner
 -----------------
 
+Getting started tutorials
+.........................
+
+* **Jessica McKeller's begining tutorial** (Video)
+  https://www.youtube.com/watch?v=MirG-vJOg04
+
 * **The Python Tutorial**
   (https://docs.python.org/3/tutorial/): This is the
   official tutorial from the Python website. No more authoritative source is
@@ -36,6 +42,9 @@ For the beginner
   (http://learnpythonthehardway.org/book/): Solid
   and gradual. This course offers a great foundation for folks who have never
   programmed in any language before. (Only Python2, but not hard to adapt to 3)
+
+Complete Books / Series
+.......................
 
 * **Dive Into Python 3**
   (http://www.diveintopython3.net/): The updated version

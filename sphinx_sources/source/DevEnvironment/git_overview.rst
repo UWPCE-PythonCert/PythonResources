@@ -1,8 +1,23 @@
-.. _supplement_git_states:
+.. _git_overview:
 
 ============
 git Overview
 ============
+
+git is a very complex and powerful system. However, it can be very usefull even if you only use a small portion of its functionality. This page should be bring you up to speed enough to make good use of git for the Python Certificate class.
+
+Note that in the certificat prgram we will be using git in conjuction with gitHub, a cloud-based service that provides a collaboration environemnt for software development based on the git version control system.
+
+Learning Resources
+==================
+
+* **gitHub tutorial:**
+
+https://guides.github.com/activities/hello-world/
+
+https://guides.github.com/introduction/flow/
+
+
 
 A Graphical Tutorial
 ====================

@@ -35,7 +35,7 @@ For the beginner
 * **Learn Python the Hard Way**
   (http://learnpythonthehardway.org/book/): Solid
   and gradual. This course offers a great foundation for folks who have never
-  programmed in any language before.
+  programmed in any language before. (Only Python2, but not hard to adapt to 3)
 
 * **Dive Into Python 3**
   (http://www.diveintopython3.net/): The updated version
@@ -48,7 +48,7 @@ For the beginner
   reference as you get used to the language.
 
 * **Think Python**
-  (http://greenteapress.com/thinkpython/): Methodical and
+  (http://greenteapress.com/thinkpython2/html/index.html): Methodical and
   complete.  This book offers a very "computer science-style" introduction to
   Python. It is really an intro to Python *in the service of* Computer Science,
   though, so while helpful for the absolute newcomer, it isn't quite as

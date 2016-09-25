@@ -36,3 +36,12 @@ https://github.com/amontalenti/elements-of-python-style
 
 Object Oriented Programming: classes
 ====================================
+
+``super()``
+-----------
+
+``super`` is a pretty confusing topic! HEre are some good resources:
+
+Raymond Hettinger's PyCon2015 talk: "Super Considered Super"
+
+https://youtu.be/EiOglTERPEo

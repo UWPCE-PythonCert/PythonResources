@@ -16,7 +16,7 @@ However, there is a definition of the "core" scipy stack:
 
 Most people will find themselves using these core tools, regardless of their area of focus.
 
-There are a lot of introductions, bootcamps, etc for all this Here are a few resources I particularly like:
+There are a lot of introductions, bootcamps, etc. for all this. Here are a few resources I particularly like:
 
 numpy
 -----
@@ -26,7 +26,7 @@ numpy is the core of it all -- a good understanding to numpy is key to doing any
 Some links:
 
 100 numpy exercises:
-  Little tricks and tips that will get you familiar with the nooks and crannies of numpy: https://github.com/rougier/numpy-100 
+  Little tricks and tips that will get you familiar with the nooks and crannies of numpy: https://github.com/rougier/numpy-100
 
 
 

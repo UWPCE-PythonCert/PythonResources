@@ -31,8 +31,8 @@
 
   
     <link rel="top" title="Python Resources 1.0 documentation" href="../index.html"/>
-        <link rel="next" title="Setting up your Mac for Python" href="python_for_mac.html"/>
-        <link rel="prev" title="The SciPy Stack" href="../GeneralPython/scipy.html"/> 
+        <link rel="next" title="Turning Sublime Text Into a Lightweight Python IDE" href="sublime_as_ide.html"/>
+        <link rel="prev" title="Installing Nano on Windows" href="../Installing/install_nano_win.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -82,20 +82,17 @@
             
             
                 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../GeneralPython/index.html">Resources for Specific Python Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installing/index.html">Installing Python and core tools</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Setting Up A Development Environment For Python</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="python_for_mac.html">Setting up your Mac for Python</a></li>
-<li class="toctree-l2"><a class="reference internal" href="python_for_windows.html">Setting up Windows for Python</a></li>
-<li class="toctree-l2"><a class="reference internal" href="python_for_linux.html">Setting Up Python For Linux</a></li>
-<li class="toctree-l2"><a class="reference internal" href="virtualenv.html">Working with Virtualenv</a></li>
 <li class="toctree-l2"><a class="reference internal" href="sublime_as_ide.html">Turning Sublime Text Into a Lightweight Python IDE</a></li>
 <li class="toctree-l2"><a class="reference internal" href="command_line.html">Command line basics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="shell.html">Shell Customizations for Python Development</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ipython.html">iPython Interpreter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="git_overview.html">git Overview</a></li>
-<li class="toctree-l2"><a class="reference internal" href="install_nano_win.html">Installing Nano on Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="virtualenv.html">Working with Virtualenv</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../GeneralPython/index.html">Resources for Specific Python Topics</a></li>
 </ul>
 
             
@@ -144,16 +141,38 @@
 <h1>Setting Up A Development Environment For Python<a class="headerlink" href="#setting-up-a-development-environment-for-python" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="python_for_mac.html">Setting up your Mac for Python</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_for_windows.html">Setting up Windows for Python</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_for_linux.html">Setting Up Python For Linux</a></li>
-<li class="toctree-l1"><a class="reference internal" href="virtualenv.html">Working with Virtualenv</a></li>
-<li class="toctree-l1"><a class="reference internal" href="sublime_as_ide.html">Turning Sublime Text Into a Lightweight Python IDE</a></li>
-<li class="toctree-l1"><a class="reference internal" href="command_line.html">Command line basics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="shell.html">Shell Customizations for Python Development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sublime_as_ide.html">Turning Sublime Text Into a Lightweight Python IDE</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="sublime_as_ide.html#requirements">Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sublime_as_ide.html#which-version">Which Version?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sublime_as_ide.html#basic-settings">Basic Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sublime_as_ide.html#extending-the-editor">Extending the Editor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sublime_as_ide.html#useful-plugins">Useful Plugins</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="command_line.html">Command line basics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="command_line.html#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="command_line.html#linux-and-os-x">Linux and OS-X</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="shell.html">Shell Customizations for Python Development</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="shell.html#what-was-that-name-again">What was that name, again?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shell.html#where-am-i-what-am-i-doing">Where am I, what am I doing?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shell.html#but-wait-there-s-more">But wait, there&#8217;s more.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shell.html#wrap-up">Wrap-Up</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="ipython.html">iPython Interpreter</a></li>
-<li class="toctree-l1"><a class="reference internal" href="git_overview.html">git Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="install_nano_win.html">Installing Nano on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="git_overview.html">git Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="git_overview.html#learning-resources">Learning Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="git_overview.html#a-graphical-tutorial">A Graphical Tutorial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="git_overview.html#other-resources">Other Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="virtualenv.html">Working with Virtualenv</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="virtualenv.html#reasons-why">Reasons Why</a></li>
+<li class="toctree-l2"><a class="reference internal" href="virtualenv.html#using-virtualenv">Using Virtualenv</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -165,10 +184,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="python_for_mac.html" class="btn btn-neutral float-right" title="Setting up your Mac for Python" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="sublime_as_ide.html" class="btn btn-neutral float-right" title="Turning Sublime Text Into a Lightweight Python IDE" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../GeneralPython/scipy.html" class="btn btn-neutral" title="The SciPy Stack" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../Installing/install_nano_win.html" class="btn btn-neutral" title="Installing Nano on Windows" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

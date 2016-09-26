@@ -1,8 +1,8 @@
 .. _python_for_mac:
 
-******************************
-Setting up your Mac for Python
-******************************
+**************************
+Setting up OS-X for Python
+**************************
 
 ==================
 Getting The Tools

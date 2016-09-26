@@ -28,6 +28,8 @@ Debian distros already have the stable python2 and python3 releases preinstalled
   [GCC 4.9.2 on linux]
   >>>
 
+I'm pretty sure that 16.4 (the most recent long term support release) has 3.5
+
 That's nice, which one is the default version? Just type ``python`` to see. It's probably python2 still:
 
 .. code-block:: bash
@@ -37,7 +39,7 @@ That's nice, which one is the default version? Just type ``python`` to see. It's
   [GCC 4.9.2 on linux2]
   >>>
 
-If you want to make ``python3.4`` the default version then add the line ``alias python=python3`` to your user's ``/home/{user}/.bashrc`` file like so:
+If you want to make ``python3.5`` the default version then add the line ``alias python=python3`` to your user's ``/home/{user}/.bashrc`` file like so:
 
 .. code-block:: bash
 
@@ -61,10 +63,10 @@ If you don't have the version you want installed then use the package manager to
 .. code-block:: bash
 
    $ # search the package manager for it
-   $ sudo apt-cache search python | grep '^python3.4\ -'
-   python3.4 - Interactive high-level object-oriented language (version 3.4)
+   $ sudo apt-cache search python | grep '^python3.5\ -'
+   python3.5 - Interactive high-level object-oriented language (version 3.5)
    $ # install it
-   $ sudo apt-get install python3.4
+   $ sudo apt-get install python3.5
 
 
 Terminal
@@ -97,24 +99,43 @@ To get pip, the first option is to use your system package manager, something li
 
 If that doesn't work, then look up the `official manual install notes <https://pip.pypa.io/en/latest/installing.html>`_
 
+Using pip:
+----------
+
+To use pip to install a package, you invoke it with this command::
+
+  python -m pip install the_name_of_the_package
+
+Where `python` is the command you use to invoke the python you want to use (could be `python3`)
+
+**NOTE:** You will frequently see advice to use pip like so::
+
+  $ pip install something_or_other
+
+Which often works, but also can invoke the *wrong* version of pip. The above command::
+
+  $ python -m pip install something_or_other
+
+calls python, and tells it to run the `pip` module. It is exactly the same as calling pip directly, except that you are assured that you are getting the version of pip connected the version of python that you are running.
+
 iPython
 --------
 
-One we are going to use in class is ``iPython``::
+One extra package we are going to use in class is ``iPython``::
 
-  $ sudo pip3 install ipython[all]
+  $ sudo python3 -m pip install ipython[all]
 
 You should now be able to run ``iPython``::
 
-    $ ipython3
-	Python 3.4.3 ()
-	Type "copyright", "credits" or "license" for more information.
+  $ ipython3
+  Python 3.5.2 ()
+  Type "copyright", "credits" or "license" for more information.
 
-	IPython 2.0.0 -- An enhanced Interactive Python.
-	?         -> Introduction and overview of IPython's features.
-	%quickref -> Quick reference.
-	help      -> Python's own help system.
-	object?   -> Details about 'object', use 'object??' for extra details.
+  IPython 2.0.0 -- An enhanced Interactive Python.
+  ?         -> Introduction and overview of IPython's features.
+  %quickref -> Quick reference.
+  help      -> Python's own help system.
+  object?   -> Details about 'object', use 'object??' for extra details.
 
 
 
@@ -125,6 +146,7 @@ Fedora and Red Hat Related Distros (CentOS)
 .. warning::
 
 	CentOS is probably the most popular distro of these related flavors. However, getting Python3 on it can be a pain. You have been warned
+
 
 Python
 -------
@@ -149,23 +171,28 @@ Let's install python3 using the package manager. Step one install `Software Coll
 
    $ sudo yum -y install scl-utils
 
-Then go to the `software collections listing <https://www.softwarecollections.org/en/scls/>`_ and click on the python collection version you want to install. Note, you also need to know which version of CentOS you are using (probably 6 or 7). For example, we care about `python version 3.4` so let's go the `.rpm` i want to install `here <https://www.softwarecollections.org/repos/rhscl/rh-python34/epel-7-x86_64/noarch/>`_:
+Then go to the `software collections listing <https://www.softwarecollections.org/en/scls/>`_ and click on the python collection version you want to install.
+
+Probably this one:
+
+https://www.softwarecollections.org/en/scls/rhscl/rh-python35/
+
+
+Note, you also need to know which version of CentOS you are using (probably 6 or 7). For example, we care about `python version 3.5` so let's go the `.rpm` i want to install `here <https://www.softwarecollections.org/repos/rhscl/rh-python35/epel-7-x86_64/noarch/>`_:
 
 .. code-block:: bash
 
 	$ # add this package to the rpm package manager
-	$ sudo rpm -Uvh https://www.softwarecollections.org/repos/rhscl/rh-python34/epel-7-x86_64/noarch/rhscl-rh-python34-epel-7-x86_64.noarch.rpm
+	$ sudo rpm -Uvh https://www.softwarecollections.org/repos/rhscl/rh-python34/epel-7-x86_64/noarch/rhscl-rh-python35-epel-7-x86_64.noarch.rpm
 
 	$ # install the right python version
-	$ sudo yum install rh-python34
+	$ sudo yum install rh-python35
 
 When you want to use python3 run this command:
 
 .. code-block:: bash
 
-	[centos@ip-172-31-21-5 ~]$ scl enable rh-python34 bash
-
-
+	[centos@ip-172-31-21-5 ~]$ scl enable rh-python35 bash
 
 
 Terminal
@@ -194,8 +221,27 @@ In CentOS, if you used the above technique to install Python3, then it comes wit
 
 .. code-block:: bash
 
-	[centos@ip-172-31-21-5 ~]$ pip -V
-	pip 1.5.6 from /opt/rh/rh-python34/root/usr/lib/python3.4/site-packages (python 3.4)
+	[centos@ip-172-31-21-5 ~]$ python -m pip -V
+	pip 8.1.2 from /opt/rh/rh-python35/root/usr/lib/python3.5/site-packages (python 3.5)
+
+Using pip:
+----------
+
+To use pip to install a package, you invoke it with this command::
+
+  python -m pip install the_name_of_the_package
+
+Where `python` is the command you use to invoke the python you want to use (could be `python3`)
+
+**NOTE:** You will frequently see advice to use pip like so::
+
+  $ pip install something_or_other
+
+Which often works, but also can invoke the *wrong* version of pip. The above command::
+
+  $ python -m pip install something_or_other
+
+calls python, and tells it to run the `pip` module. It is exactly the same as calling pip directly, except that you are assured that you are getting the version of pip connected the version of python that you are running.
 
 iPython
 --------
@@ -207,10 +253,10 @@ One we are going to use in class is ``iPython``::
 You should now be able to run ``iPython``::
 
     $ ipython3
-	Python 3.4.3 ()
+	Python 3.5.2 ()
 	Type "copyright", "credits" or "license" for more information.
 
-	IPython 2.0.0 -- An enhanced Interactive Python.
+	IPython 5.1.0 -- An enhanced Interactive Python.
 	?         -> Introduction and overview of IPython's features.
 	%quickref -> Quick reference.
 	help      -> Python's own help system.

@@ -1,8 +1,8 @@
 .. _python_for_mac:
 
-******************************
-Setting up your Mac for Python
-******************************
+**************************
+Setting up OS-X for Python
+**************************
 
 ==================
 Getting The Tools
@@ -43,7 +43,7 @@ Oddly, this does NOT install a ``python`` command, but rather a ``python3`` comm
 
 (or an alias in your shell -- an Unix geeks here?)
 
-Once you have done that, you should be able to type `python` at the command prompt, and get::
+Once you have done that, you should be able to type ``python`` at the command prompt, and get::
 
   $ python
   Python 3.5.2 (v3.5.2:4def2a2901a5, Jun 26 2016, 10:47:25)
@@ -84,7 +84,7 @@ To use pip to install a package, you invoke it with this command::
 
   python -m pip install the_name_of_the_package
 
-Where `python` is the command you use to invoke the python you want to use (could be `python3`)
+Where ``python`` is the command you use to invoke the python you want to use (could be ``python3``)
 
 **NOTE:** You will frequently see advice to use pip like so::
 
@@ -94,12 +94,12 @@ Which often works, but also can invoke the *wrong* version of pip. The above com
 
   $ python -m pip install something_or_other
 
-calls python, and tells it to run the `pip` module. It is exactly the same as calling pip directly, except that you are assured that you are getting the version of pip connected the version of python that you are running.
+calls python, and tells it to run the ``pip`` module. It is exactly the same as calling pip directly, except that you are assured that you are getting the version of pip connected the version of python that you are running.
 
 iPython
 --------
 
-One package we are going to use in class is ``iPython``. YOu can install it with `pip` like so::
+One package we are going to use in class is ``iPython``. YOu can install it with ``pip`` like so::
 
   $ python3 -m pip install ipython[all]
 

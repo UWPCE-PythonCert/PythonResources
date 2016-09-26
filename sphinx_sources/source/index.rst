@@ -14,6 +14,7 @@ For the most part, these are resources of use to any python programmer: book rec
 .. toctree::
     :maxdepth: 2
 
+    Installing/index
     GeneralPython/index
     DevEnvironment/index
 

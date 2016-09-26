@@ -33,14 +33,15 @@ Which Version?
 
 While Version 3 is still considered "beta", it is the one everyone is putting
 their effort into, and some of the plugins I recommend are not available for
-version 2.
+version 2. So *USe Sublime Version 3*
 
 
 Basic Settings
 ==============
 
 All configuration in Sublime Text is done via `JSON`_. It's simple to learn. go
-and read that link then return here.
+and read that link then return here. [Note that JSON is very similar to Python
+dict and list literals]
 
 There are a number of `different levels of configuration`_ in Sublime Text. You
 will most often work on settings at the user level.
@@ -60,13 +61,11 @@ are quite personal, find ones that suit you.):
 
 .. code-block:: json
 
-    source
-
     {
         "color_scheme": "Packages/User/Cobalt (SL).tmTheme",
         "theme": "Soda Light 3.sublime-theme",
         // A font face that helps distinguish between 0 (the number) and 'O' (the letter)
-        // among other problem characters. YOu also want a "fixed width font"
+        // among other problem characters. You also want a "fixed width font"
         // Monaco is a nice option that comes with all Macs.
         // Not sure what's best on Windows.
         "font_face": "Monaco",

@@ -1,8 +1,8 @@
 .. _python_for_linux:
 
-******************************
-Setting Up Python For Linux
-******************************
+***************************
+Setting Up Linux for Python
+***************************
 
 
 ==================================================
@@ -106,7 +106,7 @@ To use pip to install a package, you invoke it with this command::
 
   python -m pip install the_name_of_the_package
 
-Where `python` is the command you use to invoke the python you want to use (could be `python3`)
+Where ``python`` is the command you use to invoke the python you want to use (could be ``python3``)
 
 **NOTE:** You will frequently see advice to use pip like so::
 
@@ -116,7 +116,7 @@ Which often works, but also can invoke the *wrong* version of pip. The above com
 
   $ python -m pip install something_or_other
 
-calls python, and tells it to run the `pip` module. It is exactly the same as calling pip directly, except that you are assured that you are getting the version of pip connected the version of python that you are running.
+calls python, and tells it to run the ``pip`` module. It is exactly the same as calling pip directly, except that you are assured that you are getting the version of pip connected the version of python that you are running.
 
 iPython
 --------
@@ -165,7 +165,7 @@ Fedora distros already have the stable python2 and python3 releases preinstalled
 	-bash: python3: command not found
 
 
-Let's install python3 using the package manager. Step one install `Software Collections` to help us:
+Let's install python3 using the package manager. Step one install "Software Collections" to help us:
 
 .. code-block:: bash
 
@@ -231,7 +231,7 @@ To use pip to install a package, you invoke it with this command::
 
   python -m pip install the_name_of_the_package
 
-Where `python` is the command you use to invoke the python you want to use (could be `python3`)
+Where ``python`` is the command you use to invoke the python you want to use (could be `python3`)
 
 **NOTE:** You will frequently see advice to use pip like so::
 
@@ -241,7 +241,7 @@ Which often works, but also can invoke the *wrong* version of pip. The above com
 
   $ python -m pip install something_or_other
 
-calls python, and tells it to run the `pip` module. It is exactly the same as calling pip directly, except that you are assured that you are getting the version of pip connected the version of python that you are running.
+calls python, and tells it to run the ``pip`` module. It is exactly the same as calling pip directly, except that you are assured that you are getting the version of pip connected the version of python that you are running.
 
 iPython
 --------

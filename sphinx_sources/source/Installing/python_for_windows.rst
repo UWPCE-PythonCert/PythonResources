@@ -17,11 +17,11 @@ There are a number of python distributions available -- many designed for easier
 - Enthought Canopy
 - Python(x,y)
 
-But for core use, the installer from python.org is the way to go:
+But for core use, the installer from python.org is the way to go, and that is what we will be using in this program.
 
 https://www.python.org/downloads/
 
-You want the installer for Python 3.4.3 -- probably 64 bit, though if you have a 32 bit sytem, you can get that. There is essentially no difference for the purposes of this course.
+You want the installer for Python 3.5.2 -- probably 64 bit, though if you have a 32 bit sytem, you can get that. There is essentially no difference for the purposes of this course.
 
 Double click and install.
 
@@ -29,7 +29,8 @@ Double click and install.
 Terminal
 ---------
 
-If you are confident in your use of the "DOS Box" or "powershell", feel free to use one of those. However, your life may be easier if you install "Git Bash", as then you can follow unix-style terminal instructions exactly, and do not have to translate. Also, your instructors are more experienced with Bash.
+If you are confident in your use of the "DOS Box" or "powershell", command lines, feel free to use one of those. However, your life may be easier if you install "Git Bash", as then you can follow unix-style terminal instructions exactly, and do not have to translate. Also, your instructors are more experienced with Bash.
+
 From now on, if you hear the terms 'bash', 'shell' or 'terminal', know that this is the application that is being referred to.
 
 When you install Git Bash, you are installing git (and a git gui) as well, thus killing two birds with one stone, metaphorically speaking.
@@ -42,11 +43,11 @@ http://www.computerhope.com/issues/ch000549.htm
 
 You will want to add:
 
-``C:\Python34``
+``C:\Python35``
 
 and
 
-``C:\Python34\Scripts``
+``C:\Python35\Scripts``
 
 to ``PATH``
 
@@ -62,6 +63,7 @@ https://code.google.com/p/tortoisegit/
 
 which integrates git with the file manager. Feel free to use this if you already have an understanding of how git works, but for the purposes of learning, it may be better to use a command line client (git Bash above).
 
+
 pip
 ---
 
@@ -73,17 +75,37 @@ It should download and install the latest ``pip``.
 
 You can now use pip to install other packages.
 
+Using pip:
+----------
+
+To use pip to install a package, you invoke it with this command::
+
+  python -m pip install the_name_of_the_package
+
+Where ``python`` is the command you use to invoke the python you want to use (could be ``python3``)
+
+**NOTE:** You will frequently see advice to use pip like so::
+
+  $ pip install something_or_other
+
+Which often works, but also can invoke the *wrong* version of pip. The above command::
+
+  $ python -m pip install something_or_other
+
+calls python, and tells it to run the ``pip`` module. It is exactly the same as calling pip directly, except that you are assured that you are getting the version of pip connected the version of python that you are running.
+
+
 iPython
 --------
 
 One extra package we are going to use in class is ``iPython``::
 
-  $ pip install ipython[all]
+  $ python -m pip install ipython[all]
 
 You should now be able to run ``iPython`` from the git bash shell::
 
     $ ipython
-	Python 2.7.8 (v2.7.8:ee879c0ffa11, Jun 29 2014, 21:07:35)
+	Python 3.5.2 (v2.7.8:ee879c0ffa11, Jun 29 2014, 21:07:35)
 	Type "copyright", "credits" or "license" for more information.
 
 	IPython 2.0.0 -- An enhanced Interactive Python.
@@ -95,5 +117,4 @@ You should now be able to run ``iPython`` from the git bash shell::
 (or from the DOS box or PowerShell prompt)
 
 We will use this as our default python interpreter.
-
 

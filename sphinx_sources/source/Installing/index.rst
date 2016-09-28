@@ -9,4 +9,4 @@ Installing Python and core tools
     python_for_windows
     python_for_linux
 
-    install_nano_win
+    git_editor_windows

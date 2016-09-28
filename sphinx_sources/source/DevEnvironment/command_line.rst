@@ -25,6 +25,10 @@ Linux and OS-X
 Tutorials
 .........
 
+* Software Carpentry had a nice introduction to the command line:
+
+  https://swcarpentry.github.io/shell-novice/01-intro/
+
 * http://conqueringthecommandline.com/book
 
 * Zed Shaw's tutorial in "Learn Code the Hard way" is excellent, but apparently no longer available for free. However there is one as an appendix to Learn Python the Hard way:

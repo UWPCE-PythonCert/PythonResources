@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Installing Python and core tools &mdash; Python Resources 1.0 documentation</title>
+  <title>Making your text Editor work with git on Windows &mdash; Python Resources 1.0 documentation</title>
   
 
   
@@ -31,8 +31,9 @@
 
   
     <link rel="top" title="Python Resources 1.0 documentation" href="../index.html"/>
-        <link rel="next" title="Setting up OS-X for Python" href="python_for_mac.html"/>
-        <link rel="prev" title="Resources for Python Certificate Program" href="../index.html"/> 
+        <link rel="up" title="Installing Python and core tools" href="index.html"/>
+        <link rel="next" title="Setting Up A Development Environment For Python" href="../DevEnvironment/index.html"/>
+        <link rel="prev" title="Setting Up Linux for Python" href="python_for_linux.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -82,11 +83,17 @@
             
             
                 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Installing Python and core tools</a><ul>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Installing Python and core tools</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="python_for_mac.html">Setting up OS-X for Python</a></li>
 <li class="toctree-l2"><a class="reference internal" href="python_for_windows.html">Setting up Windows for Python</a></li>
 <li class="toctree-l2"><a class="reference internal" href="python_for_linux.html">Setting Up Linux for Python</a></li>
-<li class="toctree-l2"><a class="reference internal" href="git_editor_windows.html">Making your text Editor work with git on Windows</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Making your text Editor work with git on Windows</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#notepad">Notepad:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sublime-text">Sublime Text:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Notepad++</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#nano">Nano</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../DevEnvironment/index.html">Setting Up A Development Environment For Python</a></li>
@@ -121,11 +128,13 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li>Installing Python and core tools</li>
+          <li><a href="index.html">Installing Python and core tools</a> &raquo;</li>
+      
+    <li>Making your text Editor work with git on Windows</li>
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../_sources/Installing/index.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/Installing/git_editor_windows.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -135,15 +144,36 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="installing-python-and-core-tools">
-<h1>Installing Python and core tools<a class="headerlink" href="#installing-python-and-core-tools" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="python_for_mac.html">Setting up OS-X for Python</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_for_windows.html">Setting up Windows for Python</a></li>
-<li class="toctree-l1"><a class="reference internal" href="python_for_linux.html">Setting Up Linux for Python</a></li>
-<li class="toctree-l1"><a class="reference internal" href="git_editor_windows.html">Making your text Editor work with git on Windows</a></li>
-</ul>
+  <div class="section" id="making-your-text-editor-work-with-git-on-windows">
+<span id="install-nano-win"></span><h1>Making your text Editor work with git on Windows<a class="headerlink" href="#making-your-text-editor-work-with-git-on-windows" title="Permalink to this headline">¶</a></h1>
+<p>By default, git will dump you into the &#8220;vim&#8221; editor when you make a commit.</p>
+<p>&#8220;vim&#8221; is a venerable old Unix tool that no one but Unix geeks can make any sense of.</p>
+<p>So you are likely to want to use something else.</p>
+<p>git can be configured to use any editor you like.</p>
+<p>Here are some options:</p>
+<div class="section" id="notepad">
+<h2>Notepad:<a class="headerlink" href="#notepad" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/github/GitPad/">https://github.com/github/GitPad/</a></p>
+</div>
+<div class="section" id="sublime-text">
+<h2>Sublime Text:<a class="headerlink" href="#sublime-text" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://stackoverflow.com/questions/32282847/opening-sublime-text-from-windows-git-bash">http://stackoverflow.com/questions/32282847/opening-sublime-text-from-windows-git-bash</a></p>
+</div>
+<div class="section" id="id1">
+<h2>Notepad++<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://danlimerick.wordpress.com/2011/06/12/git-for-windows-tip-setting-an-editor/">https://danlimerick.wordpress.com/2011/06/12/git-for-windows-tip-setting-an-editor/</a></p>
+</div>
+<div class="section" id="nano">
+<h2>Nano<a class="headerlink" href="#nano" title="Permalink to this headline">¶</a></h2>
+<p>This was a nice way to go &#8211; but unfortuneatly, there no longer seems to be a Windows binary available for nano</p>
+<p>For all Windows installations, download the WinNT/9x binary from here:</p>
+<p><a class="reference external" href="http://www.nano-editor.org/download.php">http://www.nano-editor.org/download.php</a></p>
+<p>Unzip the file and move the files into the git bin directory: C:Program FilesGitbin</p>
+<p>That&#8217;s it! You should now be able to use nano from git bash:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ nano test.txt
+</pre></div>
+</div>
+<p>Command shortcuts are helpfully written in the editor!</p>
 </div>
 </div>
 
@@ -154,10 +184,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="python_for_mac.html" class="btn btn-neutral float-right" title="Setting up OS-X for Python" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../DevEnvironment/index.html" class="btn btn-neutral float-right" title="Setting Up A Development Environment For Python" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../index.html" class="btn btn-neutral" title="Resources for Python Certificate Program" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="python_for_linux.html" class="btn btn-neutral" title="Setting Up Linux for Python" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

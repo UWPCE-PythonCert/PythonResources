@@ -9,6 +9,7 @@ Setting Up A Development Environment For Python
     command_line
     shell
     ipython
+    windows_bash
 
     git_overview
 

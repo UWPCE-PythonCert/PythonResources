@@ -62,7 +62,7 @@ are quite personal, find ones that suit you.):
 .. code-block:: json
 
     {
-        "color_scheme": "Packages/User/Cobalt (SL).tmTheme",
+        "color_scheme": "Packages/User/Cobalt.tmTheme",
         "theme": "Soda Light 3.sublime-theme",
         // A font face that helps distinguish between 0 (the number) and 'O' (the letter)
         // among other problem characters. You also want a "fixed width font"
@@ -85,7 +85,7 @@ are quite personal, find ones that suit you.):
             100  // maximum allowable length
         ],
         "word_wrap": false, // I hate auto-wrapped text.
-        "wrap_width": 79 // This is used by a plugin elsewhere
+        "wrap_width": 79, // This is used by a plugin elsewhere
         "tab_size": 4,
         "translate_tabs_to_spaces": true,
         "use_tab_stops": true,

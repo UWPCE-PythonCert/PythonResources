@@ -33,6 +33,12 @@ Of course, PEP8 (https://www.python.org/dev/peps/pep-0008/) is the place to star
 
 https://github.com/amontalenti/elements-of-python-style
 
+Comprehensions:
+===============
+
+http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/
+
+
 
 Object Oriented Programming: classes
 ====================================

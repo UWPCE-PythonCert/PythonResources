@@ -51,3 +51,42 @@ Object Oriented Programming: classes
 Raymond Hettinger's PyCon2015 talk: "Super Considered Super"
 
 https://youtu.be/EiOglTERPEo
+
+Asynchronous Programming
+========================
+
+Recent versions of Python have added support for asynchronous programming. It is a whole new way to deal with program flow.
+
+Here are some resources to help you "get" it:
+
+Asynchronous Python -- Await the Future
+
+https://hackernoon.com/asynchronous-python-45df84b82434#.kpwejkin2
+
+Async Through the Looking Glass -- Adventures in Python Land
+
+https://hackernoon.com/async-through-the-looking-glass-d69a0a88b661#.sd3xk0ru0
+
+Asyncio for the working Python developer
+----------------------------------------
+This one talks about why you might want to do async development.
+
+https://hackernoon.com/asyncio-for-the-working-python-developer-5c468e6e2e8e#.dlhcuy23h
+
+Assorted from David Beazley
+---------------------------
+
+David Beazley is scary smart, and types much faster than mos of us can think. But on video, you can pause and take the take to catch up with him, and learn a lot:
+
+http://www.dabeaz.com/talks.html
+
+This one in particular -- ALL live demo. Really hard to keep up -- but really informative!
+
+Python Concurrency From the Ground Up: LIVE!
+
+http://pyvideo.org/pycon-us-2015/python-concurrency-from-the-ground-up-live.html
+
+
+
+
+

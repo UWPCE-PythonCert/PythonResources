@@ -28,7 +28,23 @@ Some links:
 100 numpy exercises:
   Little tricks and tips that will get you familiar with the nooks and crannies of numpy: https://github.com/rougier/numpy-100
 
+SciPy
+-----
 
+A full "course" focused on Python for atmospheric and oceanic sciences, but most is applicable to other fields:
+
+https://github.com/Unidata/unidata-python-workshop
+
+Here is a collection of resources for scientific programming with Python:
+
+https://pyintro.org/resources.html
+
+pandas
+------
+
+Here is an nice tutorial for pandas:
+
+https://github.com/darothen/python_for_climate_data_science/blob/master/basic_pandas.ipynb
 
 
 

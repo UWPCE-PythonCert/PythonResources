@@ -52,6 +52,14 @@ Raymond Hettinger's PyCon2015 talk: "Super Considered Super"
 
 https://youtu.be/EiOglTERPEo
 
+Threading
+=========
+
+Threading and GUI programming:
+
+https://www.blog.pythonlibrary.org/2013/06/27/wxpython-how-to-communicate-with-your-gui-via-sockets/
+
+
 Asynchronous Programming
 ========================
 
